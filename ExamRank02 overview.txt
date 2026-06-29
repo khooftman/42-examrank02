@@ -47,4 +47,4 @@ add_prime sum      nok atoi, putnbr, isprime helpfuncites, dna in main aftellen 
                     isprime : while (i * i <= nb) { if (nb % i == 0) return (0); i++; return (1)
 epur_str           nok first flag gebruiken! eerst spaties skippen,if (!av[1][i]) break;  dan  if(!first) spatie voor het woord. first = 0, en                          gewoon woord schrijven. 
 expand_str         nok zelfde als epur_str maar met 3 spaties inpv 1. dus, met firstflag!!.
-ft_atoi_base       nok denk aangepaste atoi, maar dan met enkel 0-9 en a-f (dus vooraan ascii bij) eerst ook lowercasen
+ft_atoi_base       nok denk aangepaste atoi, maar dan met enkel 0-9 en a-f (dus vooraan ascii bij) eerst ook lowercasen; result = result *                     base + d 
