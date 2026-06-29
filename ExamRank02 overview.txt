@@ -46,3 +46,4 @@ Level 2
 add_prime sum      nok atoi, putnbr, isprime helpfuncites, dna in main aftellen in loop en priemgetallen optellen, else,. return (0) 
                     isprime : while (i * i <= nb) { if (nb % i == 0) return (0); i++; return (1)
 epur_str           nok first flag gebruiken! if(!first) spatie voor het woord. anders gewoon woord schrijven- eerst nog de eerste spaties skippen
+expand_str         nok zelfde als epur_str maar met 3 spaties inpv 1. dus, met firstflag!!.
