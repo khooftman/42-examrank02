@@ -1,0 +1,38 @@
+Exam Rank 02
+Level 0
+aff_a	            ok	break niet vergeten anders print het te veel aaaa
+aff_first_param     ok  ac > 1 niet ac == 2 voor geval dat woorden niet tussen "" staan
+aff_last_param      ok  av[ac - 1][i]  i niet vergeten in while loop en write
+aff_z               ok  gewoon z writen int main(void) mag ook
+first_word          ok  bij tweede while bij ' ' && '\t en de \n juist schrijven
+fizzbuzz            ok  opletten bij putnbr -> write(1, &c, 1) niet met haakjes enkel &c // else if niet vergeten
+ft_putstr           ok
+ft_strcpy           ok  
+ft_strlen           ok
+ft_swap             ok logica ok maar *vergeten bij *a *b
+maff_alpha          ok hardcoden
+maff_revalpha       ok hardcoden
+repeat_alpha        ok zien dat je k gebruikt en niet op 0 zet, k 0 av[1][i] - 'a' + 1 en dan aftellen met k-- en schrijven, i++ niet vegeten in hoofdlus
+rev_print           ok eerst door de string, en dan met while(i--) achteruit writen
+rot_13              ok else if ipv if schrijven! eerst de if en else if, en dna write
+rotone              ok i++ niet vergeten
+search_and_replace  nok  nog eens herhalen [0] ipv [1] !s
+ulstr               ok
+
+Level 1
+alpha_mirror        nok  magic formula av[1][i] = 'a' + 'z' - av[1][i]
+camel_to_snake      nok  enkel zoeken naar hoofdletters, underscore schrijven, en dan av[1][i] omzetten naar lowercase
+do_op               ok
+ft_atoi             nok  kern: n = n * 10 + (str[i++] - '0'); sign = 1, i = 0, n = 0,
+ft_strchr           nok  c casten naar char en '\0'behandlen - geen int i nodig while en daarond if voor \0 - return (0)
+ft_strcmp           ok  (gebruik [i] en gewoon vergelijken in hooflus en verschil teruggeven) met unsigned char, nie zker of dat nodig is.
+ft_strcspn          nok  met i = 0 buiten hoofdlus, j=0 moet in de lus zitten, boven  binnenlus
+ft_strdup           nok geen return van i geven na stringlength, maar dst = malloc(i+ 1) doen. if !dst return (NULL) doen. ..
+ft_strpbrk          nok best zoals strcspn, while while if, met i en j -> geeft character terug niet het aantal zoals strcspn
+ft_strrev           nok stringlen berejeeb en in int len steken, dan while ,et i < ;em / 2 ; en dan een temp swap met str[i] en str[len - 1 - i]. char tmp, want str is ook char
+ft_strcspn          nok while in while en if(!accept[j]), op niveau eerst while 
+inter               nok niet doen zoals in examprep. met seen[256] = {0}!!! while av[1][i] in while av[2][j] && av[2][j] != av[1][i]  met int j binnen hoofdlus - en dan if (av[2][j] en !seen[av[1][i]]), writen, en dan seen = 1
+is_power_of_2       nok if(n == 0) return (0); return ((n & (n - 1)) == 0);
+last word           nok met start, of door sring heen en weer gaan en achteruit schrijven. 
+max                 nok maar vrij kort, int m, unsigned int i, en dan while(i<len).. max updaten, m = tab[i] i++; return (m);
+print bits          nok int i = 8; while (i--)  {char b = ((octet >> i) & 1) + '0'; write(1. &b, 1);}
