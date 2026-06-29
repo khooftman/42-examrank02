@@ -42,3 +42,7 @@ snake_to_camel      ok lijkt op die andere camel to snake.
 swap_bits           ok return ((octet >> 4) | (octet << 4))
 union               nok while voor av[1][i] met een if(!seen:..) seen.. =1 ; write. Dan opnieuw int i = 0 dan nieuwe while met een  if, voor av[2][i]
 wdmatch             nok -  dus i en j, i bewweegt in s1 enkel wanneer match, j altijd door hele s2
+
+Level 2
+add_prime sim      nok atoi, putnbr, isprime helpfuncites, dna in main aftellen in loop en priemgetallen optellen, else,. return (0) 
+                    isprime : while (i * i <= nb) { if (nb % i == 0) return (0); i++; return (1)
