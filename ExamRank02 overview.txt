@@ -41,3 +41,4 @@ reverse_bits        nok int i 8, while (i--) maar denk aan aanmaken res, en stee
 snake_to_camel      ok lijkt op die andere camel to snake.
 swap_bits           ok return ((octet >> 4) | (octet << 4))
 union               nok while voor av[1][i] met een if(!seen:..) seen.. =1 ; write. Dan opnieuw int i = 0 dan nieuwe while met een  if, voor av[2][i]
+wdmatch             nok - check mijn ai versie, duidelijker dan examprep
