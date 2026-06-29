@@ -46,3 +46,4 @@ wdmatch             nok -  dus i en j, i bewweegt in s1 enkel wanneer match, j a
 Level 2
 add_prime sum      nok atoi, putnbr, isprime helpfuncites, dna in main aftellen in loop en priemgetallen optellen, else,. return (0) 
                     isprime : while (i * i <= nb) { if (nb % i == 0) return (0); i++; return (1)
+epur_str           nok first flag gebruiken! if(!first) spatie voor het woord. anders gewoon woord schrijven
