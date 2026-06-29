@@ -32,7 +32,6 @@ ft_strpbrk          nok best zoals strcspn, while while if, met i en j -> geeft 
 ft_strrev           nok stringlen berejeeb en in int len steken, dan while ,et i < ;em / 2 ; en dan een temp swap met str[i] en str[len - 1 - i]. char tmp, want str is ook char
 ft_strcspn          nok while in while en if(!accept[j]), op niveau eerst while 
 inter               nok seen[256] = {0}!!! while av[2][i] doorlopen en registren in seen. Dan while voor av[1][i], als seen =1, printen, en seen terug op 0 om duplicaten te vermijden.
-
 is_power_of_2       nok if(n == 0) return (0); return ((n & (n - 1)) == 0);
 last word           nok met start, of door sring heen en weer gaan en achteruit schrijven. 
 max                 nok maar vrij kort, int m, unsigned int i, en dan while(i<len).. max updaten, m = tab[i] i++; return (m);
