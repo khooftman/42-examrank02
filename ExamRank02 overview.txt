@@ -55,5 +55,6 @@ hidenp             nok 2 strings, letters gelijk , ga naar volgende letter in s1
 lcm                nok begin vanaf grootste getal, if a > b .. n = a else n = b .. en dan while loop zlang n %a != 0 || n %b != 0
 paramsum           ok putnbr en dan een program met (void)av; ft_putnbr(ac - 1); newline;
 pgcd               nok grootste gemende deler euclid: while(b) { t = b; b = a % b; a = t; }
+print_hex          nok in main: print_hex(ft_atoi(av[1])); helpfuncties ft_atoi en print_hex (soort putnbr met / 16 en hex[ n % 16)
 
 
