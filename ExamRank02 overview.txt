@@ -62,7 +62,7 @@ tab_mult          nok putnbr, atoi, en dan main vermenigvuldigen met while( i > 
 
 Level 3
 floodfill         nok Recursive. Bewaar het target, dan recursively vul alle 4 neighbours that share the same character. Maak een hulp functie fill en doe daar een extra argument char target bij (begin wordt cur) void fill(char **tab, t_point size, t_point cur, char target) 
-fprime            nok Start met factor 2. Als n % f == 0, print it and divide n door f (don’t increment —
-same factor may repeat). Otherwise try the next factor
+fprime            nok  start bij factor 2 en blijf het getal n door deze factor delen en uitprinten zolang dat restloos kan, waarbij je telkens een * tussenvoegt als er daarna nóg een deling mogelijk is, en je de factor pas ophoogt (f++) als de huidige niet meer past.
+
 
 
