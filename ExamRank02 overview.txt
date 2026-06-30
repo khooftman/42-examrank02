@@ -53,5 +53,6 @@ ft_range          nok size bepalen met start en end (2 opties start <= end of st
 ft_rrange          nok zelfde principe als renge, maar naar start lopen vanaf end
 hidenp             nok 2 strings, letters gelijk , ga naar volgende letter in s1, en ga altijd naar volgende in s2. asl s1 helemaal op is, write 1
 lcm                nok begin vanaf grootste getal, if a > b .. n = a else n = b .. en dan while loop zlang n %a != 0 || n %b != 0
+paramsum           ok putnbr en dan een program met (void)av; ft_putnbr(ac - 1); newline;
 
 
