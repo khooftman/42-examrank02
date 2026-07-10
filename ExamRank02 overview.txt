@@ -30,7 +30,7 @@ ft_strcspn          ok    met i = 0 buiten hoofdlus, j=0 moet in de lus zitten, 
 ft_strdup           ok    geen return van i geven na stringlength, maar dst = malloc(i+ 1) doen. if !dst return (NULL) doen. ..
 ft_strpbrk          ok    best zoals strcspn, while while if, met i en j -> geeft character terug niet het aantal zoals strcspn
 ft_strrev           ok   stringlen  en in int len steken, dan while ,et i < ;em / 2 ; en dan een temp swap met str[i] en str[len - 1 - i]. char tmp, want str is ook char, TEST: char test[] = "koen" .. (array maken!)
-ft_strcspn          nok while in while en if(!accept[j]), op niveau eerst while 
+ft_strcspn          ok while in while en if(!accept[j]), op niveau eerst while 
 inter               nok seen[256] = {0}!!! while av[2][i] doorlopen en registren in seen. Dan while voor av[1][i], als seen =1, printen, en seen terug op 0 om duplicaten te vermijden.
 is_power_of_2       nok if(n == 0) return (0); return ((n & (n - 1)) == 0);
 last word           ok   met start, of door sring heen en weer gaan en achteruit schrijven. / i >= 0 && .. niet vergeten als je terug loopt
