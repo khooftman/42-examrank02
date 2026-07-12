@@ -32,7 +32,7 @@ ft_strpbrk          ok    best zoals strcspn, while while if, met i en j -> geef
 ft_strrev           ok   stringlen  en in int len steken, dan while ,et i < ;em / 2 ; en dan een temp swap met str[i] en str[len - 1 - i]. char tmp, want str is ook char, TEST: char test[] = "koen" .. (array maken!)
 ft_strcspn          ok while in while en if(!accept[j]), op niveau eerst while 
 inter               ok seen[256] = {0}!!! while av[2][i] doorlopen en registren in seen. Dan while voor av[1][i], als seen =1, printen, en seen terug op 0 om duplicaten te vermijden.
-is_power_of_2       nok if(n == 0) return (0); return ((n & (n - 1)) == 0);
+is_power_of_2       ok if(n == 0) return (0); return ((n & (n - 1)) == 0);
 last word           ok   met start, of door sring heen en weer gaan en achteruit schrijven. / i >= 0 && .. niet vergeten als je terug loopt
 max                 nok maar vrij kort, int m, unsigned int i, en dan while(i<len).. max updaten, m = tab[i] i++; return (m);
 print bits          nok int i = 8; while (i--)  {char b = ((octet >> i) & 1) + '0'; write(1. &b, 1);}
