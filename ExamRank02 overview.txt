@@ -40,7 +40,7 @@ reverse_bits        ok int i 8, while (i--) maar denk aan aanmaken res, en steek
 snake_to_camel      ok lijkt op die andere camel to snake.
 swap_bits           ok return ((octet >> 4) | (octet << 4))
 union               ok while voor av[1][i] met een if(!seen:..) seen.. =1 ; write. Dan opnieuw int i = 0 dan nieuwe while met een  if, voor av[2][i]
-wdmatch             nok -  dus i en j, i bewweegt in s1 enkel wanneer match, j altijd door hele s2
+wdmatch             ok -  dus i en j, i bewweegt in s1 enkel wanneer match, j altijd door hele s2 - de if(!av[1][i]) is hier cruciaal. Dit controleert of je tot einde van av1 bent geraakt.
 
 Level 2
 add_prime sum      nok atoi, putnbr, isprime helpfuncites, dna in main aftellen in loop en priemgetallen optellen, else,. return (0) 
