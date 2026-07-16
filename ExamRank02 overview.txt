@@ -68,7 +68,7 @@ ft_list_foreach   ok Approach: Walk the list and call f(node->data) for each nod
 ft_list_remove_if ok  maak *cur = *begin_list en dan recursief, eerst *begin_list en dan cur->next checken
 ft_split          ok Je telt eerst het aantal woorden om de hoofd-array te malloc-en, waarna je met een while-loop spaties overslaat, per woord de lengte berekent via indices, en telkens een sub-array malloc-t om de letters in te kopiëren. 1 hulpfunctie count_words
 rev_wstr          nok Je zoekt het einde van de string, loopt achteruit om telkens de start en het einde van een woord te markeren, print dat woord letter voor letter vooruit, en plaatst spaties zolang je het begin van de string nog niet hebt bereikt.
-rostring        nok Je markeert de start en het einde van het eerste woord, loopt met dezelfde teller verder om alle overige woorden direct (met een spatie ervoor) uit te printen, en print tot slot het eerste woord aan het einde.
+rostring        ok Je markeert de start en het einde van het eerste woord, loopt met dezelfde teller verder om alle overige woorden direct (met een spatie ervoor) uit te printen, en print tot slot het eerste woord aan het einde.
 sort_int_tab    nok Je loopt door de array en wisselt aangrenzende getallen direct om als ze verkeerd staan, waarna je telkens vanaf de start (i = 0) opnieuw begint te controleren totdat je zonder wissels het einde bereikt.
 sort_list       nok Je loopt door de linked list en wisselt de data van aangrenzende nodes om als de vergelijkingsfunctie 0 teruggeeft, waarna je telkens vanaf de start (lst = head) opnieuw begint totdat alles op de juiste volgorde staat.
 
