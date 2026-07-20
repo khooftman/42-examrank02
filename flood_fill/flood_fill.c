@@ -1,33 +1,27 @@
 typedef struct s_point
 {
-	int	x;
-	int	y;
-}		t_point;
+int x;
+int y;
+} t_point;
 
-void    fill(char **tab, t_point size, int y, int x, char begin_char)
+void fill(char **tab, t_point size, t_point cur, char target)
 {
-    if(y < 0 || y >= size.y || x < 0 || x >= size.x)
+    if(cur.y < 0 || cur.y >= size.y || cur.x < 0 || cur.x >= size.x)
         return;
-
-    if(tab[y][x] != begin_char)
+    if(tab[cur.y][cur.x] != target)
         return;
-    
-    tab[y][x] = 'F';
+    tab[cur.y][cur.x] = 'F';
 
-    fill(tab, size, y - 1, x, begin_char);
-    fill(tab, size, y + 1, x, begin_char);
-    fill(tab, size, y, x - 1, begin_char);
-    fill(tab, size, y, x + 1, begin_char);
-
+    fill(tab, size, (t_point){cur.x - 1, cur.y}, target);
+    fill(tab, size, (t_point){cur.x + 1, cur.y}, target);
+    fill(tab, size, (t_point){cur.x, cur.y - 1}, target);
+    fill(tab, size, (t_point){cur.x, cur.y + 1}, target);
 }
 
-void    flood_fill(char **tab, t_point size, t_point begin)
+void flood_fill(char **tab, t_point size, t_point begin)
 {
-    char begin_char;
-    begin_char = tab[begin.y][begin.x];
-
-    fill(tab, size, begin.y, begin.x, begin_char);
-
+    char target = tab[begin.y][begin.x];
+    fill(tab, size, begin, target);
 }
 
 
