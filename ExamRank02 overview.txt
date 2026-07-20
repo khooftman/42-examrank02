@@ -1,14 +1,14 @@
 Exam Rank 02
 Level 0
 aff_a	             ok	break niet vergeten anders print het te veel aaaa
-aff_first_param     ok  ac > 1 niet ac == 2 voor geval dat woorden niet tussen "" staan
-aff_last_param      ok  av[ac - 1][i]  i niet vergeten in while loop en write
+aff_first_param     OK  ac > 1 niet ac == 2 voor geval dat woorden niet tussen "" staan
+aff_last_param      OK  av[ac - 1][i]  i niet vergeten in while loop en write
 aff_z               ok  gewoon z writen int main(void) mag ook
 first_word          ok  bij tweede while bij ' ' && '\t en de \n juist schrijven
 fizzbuzz            ok  opletten bij putnbr -> write(1, &c, 1) niet met haakjes enkel &c // else if niet vergeten
 ft_putstr           ok
 ft_strcpy           ok  
-ft_strlen           ok
+ft_strlen           OK
 ft_swap             ok logica ok maar *vergeten bij *a *b
 maff_alpha          ok hardcoden
 maff_revalpha       ok hardcoden
@@ -17,7 +17,7 @@ rev_print           ok eerst door de string, en dan met while(i--) achteruit wri
 rot_13              ok else if ipv if schrijven! eerst de if en else if, en dna write
 rotone              ok i++ niet vergeten
 search_and_replace  ok  nog eens herhalen [0] ipv [1] ! en!!in if (ac == 4 && av[2][1] == '\0' && av[3][1] =='\0')
-ulstr               ok
+ulstr               OK
 
 Level 1
 alpha_mirror        ok    magic formula av[1][i] = 'a' + 'z' - av[1][i]
