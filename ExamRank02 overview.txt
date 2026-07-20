@@ -1,6 +1,6 @@
 Exam Rank 02
 Level 0
-aff_a	                 	break niet vergeten anders print het te veel aaaa
+aff_a                   break niet vergeten anders print het te veel aaaa
 aff_first_param     OK  ac > 1 niet ac == 2 voor geval dat woorden niet tussen "" staan
 aff_last_param      OK  av[ac - 1][i]  i niet vergeten in while loop en write
 aff_z                   gewoon z writen int main(void) mag ook
