@@ -1,59 +1,59 @@
 Exam Rank 02
 Level 0
-aff_a	             ok	break niet vergeten anders print het te veel aaaa
+aff_a	                 	break niet vergeten anders print het te veel aaaa
 aff_first_param     OK  ac > 1 niet ac == 2 voor geval dat woorden niet tussen "" staan
 aff_last_param      OK  av[ac - 1][i]  i niet vergeten in while loop en write
-aff_z               ok  gewoon z writen int main(void) mag ook
-first_word          ok  bij tweede while bij ' ' && '\t en de \n juist schrijven
-fizzbuzz            ok  opletten bij putnbr -> write(1, &c, 1) niet met haakjes enkel &c // else if niet vergeten
-ft_putstr           ok
-ft_strcpy           ok  
+aff_z                   gewoon z writen int main(void) mag ook
+first_word              bij tweede while bij ' ' && '\t en de \n juist schrijven
+fizzbuzz                opletten bij putnbr -> write(1, &c, 1) niet met haakjes enkel &c // else if niet vergeten
+ft_putstr             
+ft_strcpy             
 ft_strlen           OK
-ft_swap             ok logica ok maar *vergeten bij *a *b
-maff_alpha          ok hardcoden
-maff_revalpha       ok hardcoden
-repeat_alpha        ok zien dat je k gebruikt en niet op 0 zet, k 0 av[1][i] - 'a' + 1 en dan aftellen met k-- en schrijven, i++ niet vegeten in hoofdlus
-rev_print           ok eerst door de string, en dan met while(i--) achteruit writen
-rot_13              ok else if ipv if schrijven! eerst de if en else if, en dna write
-rotone              ok i++ niet vergeten
-search_and_replace  ok  nog eens herhalen [0] ipv [1] ! en!!in if (ac == 4 && av[2][1] == '\0' && av[3][1] =='\0')
+ft_swap                logica ok maar *vergeten bij *a *b
+maff_alpha             hardcoden
+maff_revalpha        hardcoden
+repeat_alpha         zien dat je k gebruikt en niet op 0 zet, k 0 av[1][i] - 'a' + 1 en dan aftellen met k-- en schrijven, i++ niet vegeten in hoofdlus
+rev_print            eerst door de string, en dan met while(i--) achteruit writen
+rot_13               else if ipv if schrijven! eerst de if en else if, en dna write
+rotone               i++ niet vergeten
+search_and_replace    nog eens herhalen [0] ipv [1] ! en!!in if (ac == 4 && av[2][1] == '\0' && av[3][1] =='\0')
 ulstr               OK
 
 Level 1
 alpha_mirror        OK    magic formula av[1][i] = 'a' + 'z' - av[1][i]
-camel_to_snake      ok    enkel zoeken naar hoofdletters, underscore schrijven, en dan av[1][i] omzetten naar lowercase
-do_op               ok
-ft_atoi             ok    kern: n = n * 10 + (str[i++] - '0'); sign = 1, i = 0, n = 0,
-ft_strchr           ok   int c casten naar char en '\0'behandlen - geen int i nodig while en daarond if voor \0 - return (0)
-ft_strcmp           ok    (gebruik [i] en gewoon vergelijken in hooflus en verschil teruggeven) met unsigned char, nie zker of dat nodig is.
-ft_strcspn          ok    met i = 0 buiten hoofdlus, j=0 moet in de lus zitten, boven  binnenlus
-ft_strdup           ok    geen return van i geven na stringlength, maar dst = malloc(i+ 1) doen. if !dst return (NULL) doen. ..
-ft_strpbrk          ok    best zoals strcspn, while while if, met i en j -> geeft character terug niet het aantal zoals strcspn
-ft_strrev           ok   stringlen  en in int len steken, dan while ,et i < ;em / 2 ; en dan een temp swap met str[i] en str[len - 1 - i]. char tmp, want str is ook char, TEST: char test[] = "koen" .. (array maken!)
-ft_strcspn          ok while in while en if(!accept[j]), op niveau eerst while 
-inter               ok seen[256] = {0}!!! while av[2][i] doorlopen en registren in seen. Dan while voor av[1][i], als seen =1, printen, en seen terug op 0 om duplicaten te vermijden.
-is_power_of_2       ok if(n == 0) return (0); return ((n & (n - 1)) == 0);
-last word           ok   met start, of door sring heen en weer gaan en achteruit schrijven. / i >= 0 && .. niet vergeten als je terug loopt
-max                 ok maar vrij kort, int m, unsigned int i, en dan while(i<len).. max updaten, m = tab[i] i++; return (m);
-print bits          ok int i = 8; while (i--)  {char b = ((octet >> i) & 1) + '0'; write(1. &b, 1);}
-reverse_bits        ok int i 8, while (i--) maar denk aan aanmaken res, en steek daar in de bits (res << 1) | (octet & 1) ; octet >>= 1
-snake_to_camel      ok lijkt op die andere camel to snake.
-swap_bits           ok return ((octet >> 4) | (octet << 4))
-union               ok while voor av[1][i] met een if(!seen:..) seen.. =1 ; write. Dan opnieuw int i = 0 dan nieuwe while met een  if, voor av[2][i]
-wdmatch             ok -  dus i en j, i bewweegt in s1 enkel wanneer match, j altijd door hele s2 - de if(!av[1][i]) is hier cruciaal. Dit controleert of je tot einde van av1 bent geraakt.
+camel_to_snake          enkel zoeken naar hoofdletters, underscore schrijven, en dan av[1][i] omzetten naar lowercase
+do_op               
+ft_atoi                 kern: n = n * 10 + (str[i++] - '0'); sign = 1, i = 0, n = 0,
+ft_strchr              int c casten naar char en '\0'behandlen - geen int i nodig while en daarond if voor \0 - return (0)
+ft_strcmp               (gebruik [i] en gewoon vergelijken in hooflus en verschil teruggeven) met unsigned char, nie zker of dat nodig is.
+ft_strcspn              met i = 0 buiten hoofdlus, j=0 moet in de lus zitten, boven  binnenlus
+ft_strdup               geen return van i geven na stringlength, maar dst = malloc(i+ 1) doen. if !dst return (NULL) doen. ..
+ft_strpbrk              best zoals strcspn, while while if, met i en j -> geeft character terug niet het aantal zoals strcspn
+ft_strrev              stringlen  en in int len steken, dan while ,et i < ;em / 2 ; en dan een temp swap met str[i] en str[len - 1 - i]. char tmp, want str is ook char, TEST: char test[] = "koen" .. (array maken!)
+ft_strcspn           while in while en if(!accept[j]), op niveau eerst while 
+inter                seen[256] = {0}!!! while av[2][i] doorlopen en registren in seen. Dan while voor av[1][i], als seen =1, printen, en seen terug op 0 om duplicaten te vermijden.
+is_power_of_2        if(n == 0) return (0); return ((n & (n - 1)) == 0);
+last word              met start, of door sring heen en weer gaan en achteruit schrijven. / i >= 0 && .. niet vergeten als je terug loopt
+max                  maar vrij kort, int m, unsigned int i, en dan while(i<len).. max updaten, m = tab[i] i++; return (m);
+print bits           int i = 8; while (i--)  {char b = ((octet >> i) & 1) + '0'; write(1. &b, 1);}
+reverse_bits         int i 8, while (i--) maar denk aan aanmaken res, en steek daar in de bits (res << 1) | (octet & 1) ; octet >>= 1
+snake_to_camel       lijkt op die andere camel to snake.
+swap_bits            return ((octet >> 4) | (octet << 4))
+union                while voor av[1][i] met een if(!seen:..) seen.. =1 ; write. Dan opnieuw int i = 0 dan nieuwe while met een  if, voor av[2][i]
+wdmatch              -  dus i en j, i bewweegt in s1 enkel wanneer match, j altijd door hele s2 - de if(!av[1][i]) is hier cruciaal. Dit controleert of je tot einde van av1 bent geraakt.
 
 Level 2
-add_prime sum      ok atoi, putnbr, isprime helpfuncites, dna in main aftellen in loop en priemgetallen optellen, else,. return (0) 
+add_prime sum       atoi, putnbr, isprime helpfuncites, dna in main aftellen in loop en priemgetallen optellen, else,. return (0) 
                     isprime : while (i * i <= nb) { if (nb % i == 0) return (0); i++; return (1)
-epur_str           ok first flag gebruiken! eerst spaties skippen,if (!av[1][i]) break;  dan  if(!first) spatie voor het woord. first = 0, en                          gewoon woord schrijven. 
-expand_str         ok zelfde als epur_str maar met 3 spaties inpv 1. dus, met firstflag!!.
-ft_atoi_base       ok denk aangepaste atoi, maar dan met enkel 0-9 en a-f (dus vooraan ascii bij) eerst ook lowercasen; result = result *                     base + d 
-ft_list_size      ok denk aan een strlen, maar dan met lists, tel met teller, while(begin_list) n++; begin_list = begin_list->next; return (n)
-ft_range          ok size bepalen met start en end (2 opties start <= end of start > end), int arr maken met malloc, en dan loop om arr[i] = start;                     start += 1 etc
-ft_rrange          nok zelfde principe als renge, maar naar start lopen vanaf end
-hidenp             ok 2 strings, letters gelijk , ga naar volgende letter in s1, en ga altijd naar volgende in s2. asl s1 helemaal op is, write 1
+epur_str            first flag gebruiken! eerst spaties skippen,if (!av[1][i]) break;  dan  if(!first) spatie voor het woord. first = 0, en                          gewoon woord schrijven. 
+expand_str          zelfde als epur_str maar met 3 spaties inpv 1. dus, met firstflag!!.
+ft_atoi_base        denk aangepaste atoi, maar dan met enkel 0-9 en a-f (dus vooraan ascii bij) eerst ook lowercasen; result = result *                     base + d 
+ft_list_size       denk aan een strlen, maar dan met lists, tel met teller, while(begin_list) n++; begin_list = begin_list->next; return (n)
+ft_range           size bepalen met start en end (2 opties start <= end of start > end), int arr maken met malloc, en dan loop om arr[i] = start;                     start += 1 etc
+ft_rrange           zelfde principe als renge, maar naar start lopen vanaf end
+hidenp              2 strings, letters gelijk , ga naar volgende letter in s1, en ga altijd naar volgende in s2. asl s1 helemaal op is, write 1
 lcm                nok begin vanaf grootste getal, if a > b .. n = a else n = b .. en dan while loop zlang n %a != 0 || n %b != 0
-paramsum           ok putnbr en dan een program met (void)av; ft_putnbr(ac - 1); newline;
+paramsum            putnbr en dan een program met (void)av; ft_putnbr(ac - 1); newline;
 pgcd               nok grootste gemende deler euclid: while(b) { t = b; b = a % b; a = t; }
 print_hex          nok in main: print_hex(ft_atoi(av[1])); helpfuncties ft_atoi en print_hex (soort putnbr met / 16 en hex[ n % 16)
 rstr_capitalizer    nok aparte functie maken want je weet niet hoeveel strings er komen. gebruik is_last variabele, om laatste letter te capitalizen, in main: ac ==1; write newline, else int i = 1; while (i < ac) rstr_cap(av[i++] - om alle strings te verwerken.
@@ -61,14 +61,14 @@ str_capitalizer    nok ook aparete functie en main omdat we niet weten hoeveel s
 tab_mult          nok putnbr, atoi, en dan main vermenigvuldigen met while( i > 9) i * n.
 
 Level 3
-floodfill         ok Recursive. Bewaar het target, dan recursively vul alle 4 neighbours that share the same character. Zie nieuwee versie met char begin_char en int y en int x
-fprime            ok  start bij factor 2 en blijf het getal n door deze factor delen en uitprinten zolang dat restloos kan, waarbij je telkens een * tussenvoegt als er daarna nóg een deling mogelijk is, en je de factor pas ophoogt (f++) als de huidige niet meer past.
-ft_itoa           ok Count the number of digits (including sign). Allocate the buffer. Fill from the end using % 10 and / 10. Handle 0 and negatives specially.
-ft_list_foreach   ok Approach: Walk the list and call f(node->data) for each node. Note: Submit both ft_list_foreach.c and ft_list.h.
-ft_list_remove_if ok  maak *cur = *begin_list en dan recursief, eerst *begin_list en dan cur->next checken
-ft_split          ok Je telt eerst het aantal woorden om de hoofd-array te malloc-en, waarna je met een while-loop spaties overslaat, per woord de lengte berekent via indices, en telkens een sub-array malloc-t om de letters in te kopiëren. 1 hulpfunctie count_words
+floodfill          Recursive. Bewaar het target, dan recursively vul alle 4 neighbours that share the same character. Zie nieuwee versie met char begin_char en int y en int x
+fprime              start bij factor 2 en blijf het getal n door deze factor delen en uitprinten zolang dat restloos kan, waarbij je telkens een * tussenvoegt als er daarna nóg een deling mogelijk is, en je de factor pas ophoogt (f++) als de huidige niet meer past.
+ft_itoa            Count the number of digits (including sign). Allocate the buffer. Fill from the end using % 10 and / 10. Handle 0 and negatives specially.
+ft_list_foreach    Approach: Walk the list and call f(node->data) for each node. Note: Submit both ft_list_foreach.c and ft_list.h.
+ft_list_remove_if   maak *cur = *begin_list en dan recursief, eerst *begin_list en dan cur->next checken
+ft_split           Je telt eerst het aantal woorden om de hoofd-array te malloc-en, waarna je met een while-loop spaties overslaat, per woord de lengte berekent via indices, en telkens een sub-array malloc-t om de letters in te kopiëren. 1 hulpfunctie count_words
 rev_wstr          nok Je zoekt het einde van de string, loopt achteruit om telkens de start en het einde van een woord te markeren, print dat woord letter voor letter vooruit, en plaatst spaties zolang je het begin van de string nog niet hebt bereikt.
-rostring        ok Je markeert de start en het einde van het eerste woord, loopt met dezelfde teller verder om alle overige woorden direct (met een spatie ervoor) uit te printen, en print tot slot het eerste woord aan het einde.
+rostring         Je markeert de start en het einde van het eerste woord, loopt met dezelfde teller verder om alle overige woorden direct (met een spatie ervoor) uit te printen, en print tot slot het eerste woord aan het einde.
 sort_int_tab    nok Je loopt door de array en wisselt aangrenzende getallen direct om als ze verkeerd staan, waarna je telkens vanaf de start (i = 0) opnieuw begint te controleren totdat je zonder wissels het einde bereikt.
 sort_list       nok Je loopt door de linked list en wisselt de data van aangrenzende nodes om als de vergelijkingsfunctie 0 teruggeeft, waarna je telkens vanaf de start (lst = head) opnieuw begint totdat alles op de juiste volgorde staat.
 
