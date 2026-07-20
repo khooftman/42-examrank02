@@ -2,7 +2,7 @@ Exam Rank 02
 Level 0
 aff_a               OK  break niet vergeten anders print het te veel aaaa
 aff_first_param         ac > 1 niet ac == 2 voor geval dat woorden niet tussen "" staan
-aff_last_param      OK  av[ac - 1][i]  i niet vergeten in while loop en write
+aff_last_param      OK  while(av[ac - 1][i]) { ...write(1, &av[ac - 1][i]...}  i niet vergeten in while loop en write
 aff_z                   gewoon z writen int main(void) mag ook
 first_word              bij tweede while bij ' ' && '\t en de \n juist schrijven
 fizzbuzz                opletten bij putnbr -> write(1, &c, 1) niet met haakjes enkel &c // else if niet vergeten
