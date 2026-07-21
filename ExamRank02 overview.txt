@@ -43,9 +43,9 @@ union                while voor av[1][i] met een if(!seen:..) seen.. =1 ; write.
 wdmatch              -  dus i en j, i bewweegt in s1 enkel wanneer match, j altijd door hele s2 - de if(!av[1][i]) is hier cruciaal. Dit controleert of je tot einde van av1 bent geraakt.
 
 Level 2
-add_prime sum       OK  atoi, putnbr, isprime helpfuncites, dna in main aftellen in loop en priemgetallen optellen, else,. return (0) 
+add_prime sum       OK    atoi, putnbr, isprime helpfuncites, dna in main aftellen in loop en priemgetallen optellen, else,. return (0) 
                     isprime : while (i * i <= nb) { if (nb % i == 0) return (0); i++; return (1)
-epur_str            OK first flag! spaties skippen,if (!av[1][i]) break; (voor spaties op einde!)  dan  if(!first) spatie voor het woord. first = 0, en gewoon woord schrijven. 
+epur_str            OK    first flag! spaties skippen,if (!av[1][i]) break; (voor spaties op einde!)  dan  if(!first) spatie voor het woord. first = 0, en gewoon woord schrijven. 
 expand_str          zelfde als epur_str maar met 3 spaties inpv 1. dus, met firstflag!!.
 ft_atoi_base        denk aangepaste atoi, maar dan met enkel 0-9 en a-f (dus vooraan ascii bij) eerst ook lowercasen; result = result *                     base + d 
 ft_list_size       denk aan een strlen, maar dan met lists, tel met teller, while(begin_list) n++; begin_list = begin_list->next; return (n)
