@@ -6,7 +6,7 @@ aff_last_param      OK  while(av[ac - 1][i]) { ...write(1, &av[ac - 1][i]...}  i
 aff_z               OK  gewoon z writen int main(void) mag ook
 first_word          OK  bij tweede while bij ' ' && '\t en de \n juist schrijven
 fizzbuzz            OK  opletten bij putnbr -> write(1, &c, 1) niet met haakjes enkel &c // else if niet vergeten
-ft_putstr             
+ft_putstr           OK 
 ft_strcpy             
 ft_strlen           OK
 ft_swap                logica ok maar *vergeten bij *a *b
