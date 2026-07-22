@@ -65,7 +65,7 @@ floodfill          OK  Recursive. Bewaar het target, dan recursively vul alle 4 
 fprime             OK  start bij factor 2 en blijf het getal n door deze factor delen en uitprinten zolang dat restloos kan, waarbij je telkens een * tussenvoegt als er daarna nóg een deling mogelijk is, en je de factor pas ophoogt (f++) als de huidige niet meer past.
 ft_itoa            NOK  HERHALEN Count the number of digits (including sign). Allocate the buffer. Fill from the end using % 10 and / 10. Handle 0 and negatives specially.
 ft_list_foreach    OK  Approach: Walk the list and call f(node->data) for each node. Note: Submit both ft_list_foreach.c and ft_list.h.
-ft_list_remove_if   maak *cur = *begin_list en dan recursief, eerst *begin_list en dan cur->next checken
+ft_list_remove_if  NOK HERHALEN maak *cur = *begin_list en dan recursief, eerst *begin_list en dan cur->next checken
 ft_split           Je telt eerst het aantal woorden om de hoofd-array te malloc-en, waarna je met een while-loop spaties overslaat, per woord de lengte berekent via indices, en telkens een sub-array malloc-t om de letters in te kopiëren. 1 hulpfunctie count_words
 rev_wstr          nok Je zoekt het einde van de string, loopt achteruit om telkens de start en het einde van een woord te markeren, print dat woord letter voor letter vooruit, en plaatst spaties zolang je het begin van de string nog niet hebt bereikt.
 rostring         Je markeert de start en het einde van het eerste woord, loopt met dezelfde teller verder om alle overige woorden direct (met een spatie ervoor) uit te printen, en print tot slot het eerste woord aan het einde.
