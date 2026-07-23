@@ -17,7 +17,7 @@ rev_print            eerst door de string, en dan met while(i--) achteruit write
 rot_13               else if ipv if schrijven! eerst de if en else if, en dna write
 rotone               i++ niet vergeten
 search_and_replace    nog eens herhalen [0] ipv [1] ! en!!in if (ac == 4 && av[2][1] == '\0' && av[3][1] =='\0')
-ulstr               OK
+ulstr               
 
 Level 1
 alpha_mirror        OK    magic formula av[1][i] = 'a' + 'z' - av[1][i]
