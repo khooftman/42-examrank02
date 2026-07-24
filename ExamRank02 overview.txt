@@ -9,7 +9,7 @@ fizzbuzz            OK  opletten bij putnbr -> write(1, &c, 1) niet met haakjes 
 ft_putstr           OK 
 ft_strcpy           OK  
 ft_strlen           OK
-ft_swap                logica ok maar *vergeten bij *a *b
+ft_swap             OK  logica ok maar *vergeten bij *a *b
 maff_alpha             hardcoden
 maff_revalpha        hardcoden
 repeat_alpha         zien dat je k gebruikt en niet op 0 zet, k 0 av[1][i] - 'a' + 1 en dan aftellen met k-- en schrijven, i++ niet vegeten in hoofdlus
