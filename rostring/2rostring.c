@@ -18,7 +18,7 @@ int main(int ac, char **av)
         first_end = i;
         while (s[i])
         {
-            while(s[i] && s[i] == ' ' || s[i] == '\t')
+            while(s[i] && (s[i] == ' ' || s[i] == '\t'))
                 i++;
             if(!s[i])
                 break;
