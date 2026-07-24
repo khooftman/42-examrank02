@@ -11,7 +11,7 @@ ft_strcpy           OK
 ft_strlen           OK
 ft_swap             OK  logica ok maar *vergeten bij *a *b
 maff_alpha          OK  hardcoden
-maff_revalpha        hardcoden
+maff_revalpha       OK  hardcoden
 repeat_alpha         zien dat je k gebruikt en niet op 0 zet, k 0 av[1][i] - 'a' + 1 en dan aftellen met k-- en schrijven, i++ niet vegeten in hoofdlus
 rev_print            eerst door de string, en dan met while(i--) achteruit writen
 rot_13               else if ipv if schrijven! eerst de if en else if, en dna write
