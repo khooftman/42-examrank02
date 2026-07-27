@@ -57,7 +57,7 @@ paramsum            OK  putnbr en dan een program met (void)av; ft_putnbr(ac - 1
 pgcd               NOK HERHALEN grootste gemende deler euclid: while(b) { t = b; b = a % b; a = t; }
 print_hex          NOK HERHALEN in main: print_hex(ft_atoi(av[1])); helpfuncties ft_atoi en print_hex (soort putnbr met / 16 en hex[ n % 16)
 rstr_capitalizer   NOK HERHALEN aparte functie maken want je weet niet hoeveel strings er komen. gebruik is_last variabele, om laatste letter te capitalizen, in main: ac ==1; write newline, else int i = 1; while (i < ac) rstr_cap(av[i++] - om alle strings te verwerken.
-str_capitalizer    nok ook aparete functie en main omdat we niet weten hoeveel strings. fucntie zelf lukt met str[i - 1] , dus ook zonder flags.
+str_capitalizer    NOK HERHALEN ook aparete functie en main omdat we niet weten hoeveel strings. fucntie zelf lukt met str[i - 1] , dus ook zonder flags.
 tab_mult          nok putnbr, atoi, en dan main vermenigvuldigen met while( i > 9) i * n.
 
 Level 3
