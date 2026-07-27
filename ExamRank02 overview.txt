@@ -54,7 +54,7 @@ ft_rrange           NOK HERHALEN zelfde principe als renge, maar naar start lope
 hidenp              OK 2 strings, letters gelijk , ga naar volgende letter in s1, en ga altijd naar volgende in s2. asl s1 helemaal op is, write 1
 lcm                 NOK begin vanaf grootste getal, 0 behandelen voor a en b ; if a > b .. n = a else n = b .. en dan while loop zlang n %a != 0 || n %b != 0 NIET GELIJK AAN 
 paramsum            OK  putnbr en dan een program met (void)av; ft_putnbr(ac - 1); newline;
-pgcd               nok grootste gemende deler euclid: while(b) { t = b; b = a % b; a = t; }
+pgcd               NOK HERHALEN grootste gemende deler euclid: while(b) { t = b; b = a % b; a = t; }
 print_hex          nok in main: print_hex(ft_atoi(av[1])); helpfuncties ft_atoi en print_hex (soort putnbr met / 16 en hex[ n % 16)
 rstr_capitalizer    nok aparte functie maken want je weet niet hoeveel strings er komen. gebruik is_last variabele, om laatste letter te capitalizen, in main: ac ==1; write newline, else int i = 1; while (i < ac) rstr_cap(av[i++] - om alle strings te verwerken.
 str_capitalizer    nok ook aparete functie en main omdat we niet weten hoeveel strings. fucntie zelf lukt met str[i - 1] , dus ook zonder flags.
