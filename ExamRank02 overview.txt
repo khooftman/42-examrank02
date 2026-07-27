@@ -31,7 +31,7 @@ ft_strdup           OK    geen return van i geven na stringlength, maar dst = ma
 ft_strpbrk          OK    best zoals strcspn, while while if, met i en j -> geeft character terug niet het aantal zoals strcspn
 ft_strrev           OK    HERHALEN OPLET MET TEST array maken int len steken, dan while ,et i < ;em / 2 ;  dan temp swap met str[i] en str[len - 1 - i]. char tmp, want str is ook char, TEST: char test[] = "koen" 
 ft_strcspn          NOK   return i -> NIET s[i] while in while en if(!accept[j]), op niveau eerst while 
-inter                seen[256] = {0}!!! while av[2][i] doorlopen en registren in seen. Dan while voor av[1][i], als seen =1, printen, en seen terug op 0 om duplicaten te vermijden.
+inter               NOK HERHALEN seen[256] = {0}!!! while av[2][i] doorlopen en registren in seen. Dan while voor av[1][i], als seen =1, printen, en seen terug op 0 om duplicaten te vermijden.
 is_power_of_2        if(n == 0) return (0); return ((n & (n - 1)) == 0);
 last word              met start, of door sring heen en weer gaan en achteruit schrijven. / i >= 0 && .. niet vergeten als je terug loopt
 max                  maar vrij kort, int m, unsigned int i, en dan while(i<len).. max updaten, m = tab[i] i++; return (m);
