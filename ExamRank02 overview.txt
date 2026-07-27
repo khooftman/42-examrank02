@@ -70,5 +70,5 @@ ft_split           NOK HERHALEN zie nieuwe versie Dani.
 rev_wstr           NOK HERHALEN e zoekt het einde van de string, loopt achteruit om telkens de start en het einde van een woord te markeren, print dat woord letter voor letter vooruit, en plaatst spaties zolang je het begin van de string nog niet hebt bereikt.
 rostring           NOK HERHALEN  Je markeert de start en het einde van het eerste woord, loopt met dezelfde teller verder om alle overige woorden direct (met een spatie ervoor) uit te printen, en print tot slot het eerste woord aan het einde.
 sort_int_tab       NOK HERHALEN  Je loopt door de array en wisselt aangrenzende getallen direct om als ze verkeerd staan, waarna je telkens vanaf de start (i = 0) opnieuw begint te controleren.
-sort_list       nok Je loopt door de linked list en wisselt de data van aangrenzende nodes om als de vergelijkingsfunctie 0 teruggeeft, waarna je telkens vanaf de start (lst = head) opnieuw begint totdat alles op de juiste volgorde staat.
+sort_list       NOK HERHALEN Je loopt door de linked list en wisselt de data van aangrenzende nodes om als de vergelijkingsfunctie 0 teruggeeft, waarna je telkens vanaf de start (lst = head) opnieuw begint totdat alles op de juiste volgorde staat.
 
