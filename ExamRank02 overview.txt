@@ -16,7 +16,7 @@ repeat_alpha        OK  zien dat je k gebruikt en niet op 0 zet, k 0 av[1][i] - 
 rev_print           OK  eerst door de string, en dan met while(i--) achteruit writen
 rot_13              OK  else if ipv if schrijven! eerst de if en else if, en dna write
 rotone              OK  i++ niet vergeten
-search_and_replace    nog eens herhalen [0] ipv [1] ! en!!in if (ac == 4 && av[2][1] == '\0' && av[3][1] =='\0')
+search_and_replace  OK  nog eens herhalen [0] ipv [1] ! en!!in if (ac == 4 && av[2][1] == '\0' && av[3][1] =='\0')
 ulstr               
 
 Level 1
