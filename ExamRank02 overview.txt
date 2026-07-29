@@ -63,7 +63,7 @@ tab_mult            OK putnbr, atoi, en dan main vermenigvuldigen met while( i >
 Level 3
 floodfill          OK  Recursive. Bewaar het target, dan recursively vul alle 4 neighbours that share the same character. Zie nieuwee versie met char begin_char en int y en int x
 fprime             OK  start bij factor 2 en blijf het getal n door deze factor delen en uitprinten zolang dat restloos kan, waarbij je telkens een * tussenvoegt als er daarna nóg een deling mogelijk is, en je de factor pas ophoogt (f++) als de huidige niet meer past.
-ft_itoa            NOK  HERHALEN Count the number of digits (including sign). Allocate the buffer. Fill from the end using % 10 and / 10. Handle 0 and negatives specially.
+ft_itoa            NOK  HERHALEN Count the number of digits (including sign). Allocate the buffer. Fill from the end using % 10 and / 10. Handle 0 and negatives specially. in hulpfuncit voor lengte geen else, een if (om len op 1 te starten bij negatieve get) en while om te tellen
 ft_list_foreach    OK  Approach: Walk the list and call f(node->data) for each node. Note: Submit both ft_list_foreach.c and ft_list.h.
 ft_list_remove_if  NOK HERHALEN maak *cur = *begin_list en dan recursief, eerst *begin_list en dan cur->next checken
 ft_split           NOK HERHALEN zie nieuwe versie Dani.
