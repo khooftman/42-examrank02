@@ -58,7 +58,7 @@ pgcd               NOK HERHALEN grootste gemende deler euclid: while(b) { t = b;
 print_hex          NOK HERHALEN in main: print_hex(ft_atoi(av[1])); helpfuncties ft_atoi en print_hex (soort putnbr met / 16 en hex[ n % 16)
 rstr_capitalizer   NOK HERHALEN aparte functie maken want je weet niet hoeveel strings er komen. gebruik is_last variabele, om laatste letter te capitalizen, in main: ac ==1; write newline, else int i = 1; while (i < ac) rstr_cap(av[i++] - om alle strings te verwerken.
 str_capitalizer    NOK HERHALEN ook aparete functie en main omdat we niet weten hoeveel strings. fucntie zelf lukt met str[i - 1] , dus ook zonder flags.
-tab_mult          nok putnbr, atoi, en dan main vermenigvuldigen met while( i > 9) i * n.
+tab_mult            OK putnbr, atoi, en dan main vermenigvuldigen met while( i > 9) i * n. met 9 of hardcoded 9 - zet int n en i binnen de if. 
 
 Level 3
 floodfill          OK  Recursive. Bewaar het target, dan recursively vul alle 4 neighbours that share the same character. Zie nieuwee versie met char begin_char en int y en int x
