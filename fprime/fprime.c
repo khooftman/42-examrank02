@@ -1,28 +1,28 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
-int	main(int ac, char **av)
+int main(int ac, char **av)
 {
-    int n = atoi(av[1]);
-    int f = 2;
-    int first = 1;
-
-    if (ac == 2)
+    if(ac == 2)
     {
+        int n = atoi(av[1]);
+        int f = 2;
+        int first = 1;
+
         if (n == 1)
             printf("1");
-        
         while (f <= n)
-            if (n % f == 0)
+        {
+            while (n % f == 0)
             {
                 if(!first)
                     printf("*");
-                printf("%d", f);
                 first = 0;
                 n /= f;
+                printf("%d", f); 
             }
-            else
-                f++;
+            f++;
+        }
     }
     printf("\n");
 }
