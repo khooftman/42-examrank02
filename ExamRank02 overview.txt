@@ -36,7 +36,7 @@ is_power_of_2       OK    if(n == 0) return (0); return ((n & (n - 1)) == 0); Nu
 last word           OK   door sring heen en weer gaan en achteruit schrijven. / i >= 0 && .. niet vergeten als je terug loopt
 max                 OK   maar vrij kort, int m, unsigned int i, en dan while(i<len).. max updaten, m = tab[i] i++; return (m);
 print bits          OK  int i = 8; while (i--)  {char b = ((octet >> i) & 1) + '0'; write(1. &b, 1);}
-reverse_bits         int i 8, while (i--) maar denk aan aanmaken res, en steek daar in de bits (res << 1) | (octet & 1) ; octet >>= 1
+reverse_bits        NOK HERHALEN int i 8, while (i--) maar denk aan aanmaken res, en steek daar in de bits (res << 1) | (octet & 1) ; octet >>= 1
 snake_to_camel       lijkt op die andere camel to snake.
 swap_bits            return ((octet >> 4) | (octet << 4))
 union                while voor av[1][i] met een if(!seen:..) seen.. =1 ; write. Dan opnieuw int i = 0 dan nieuwe while met een  if, voor av[2][i]
